@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Anek Odia;
+    src: url(AnekOdia.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    cursor: url('./image/cursor.png'), auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 140px;
+    background-color: #004E98;
+    ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: 10px;
+    left: 840px;
+    width: 200px;
+    height: 120px;
+}
+
+.header a {
+    font-family: Anek Odia;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.menu {
+    position: absolute;
+    top: 45px;
+    left: 110px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.menu:hover, .menu:focus, .menu:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+.contact {
+    position: absolute;
+    top: 45px;
+    left: 1670px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.contact:hover, .contact:focus, .contact:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+.container {
+    top: 70px;
+    left: 400px;
+    position: relative;
+}
+
+.a9 {
+    width: 700px;
+    height: 700px;
+    /* padding-left: 9%; */
+}
+
+.grade-container {
+    position: absolute;
+    background: #EA9AB240;
+    width: 400px;
+    height: 370px;
+    top: 160px;
+    left: 633px;
+    border-radius: 45px;
+}
+
+.grade-container button {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    background: #EA9AB2;
+    border-radius: 35px;
+    font-family: Anek Odia;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform,;
+    transition-property: box-shadow, transform;
+}
+
+.grade-container button:hover, grade-container button:focus, .grade-container button:active {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.a9-1 {
+    top: 110px;
+    left: 25px;
+}
+
+.a9-2 {
+    top: 90px;
+    left: 25px;
+}
+
+.a9-3 {
+    top: 70px;
+    left: 25px;
+}
+
+.a9-4 {
+    top: 50px;
+    left: 25px;
+}
+
+.char {
+    position: relative;
+    width: 270px;
+    height: 150px;
+    top: -75px;
+    left: -1050px;
+    display: none;
+}
+
+.smoke {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    top: -40px;
+    left: -1045px;
+    display: none;
+}
+
+/* button {
+    background-color: blueviolet;
+    border-radius: 0px;
+    position: absolute;
+    height: 120px;
+    width: 193px;
+    top: 270px;
+    left: 420px;
+    cursor: pointer;
+    z-index: 1;
+} */
